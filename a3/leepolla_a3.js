@@ -325,6 +325,9 @@ function drawVis() { //draw the circiles initially and on each interaction with 
 
     var  r= 200;
     //var color = d3.scaleOrdinal(["#98abc5", "#8a89a6", "#7b6888", "#6b486b", "#a05d56", "#d0743c", "#ff8c00"]);
+    
+    //started my pie chart from this persons code https://bl.ocks.org/arifb/3882186
+    
     if(document.getElementById("pie")){
     document.getElementById("visualization").removeChild(document.getElementById("pie"));
     }
